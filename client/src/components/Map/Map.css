@@ -1,7 +1,5 @@
 .Map-container {
-    background-color: rgb(244 175 124);
     background: linear-gradient(to bottom, rgb(244 175 124), rgb(132 113 101));
-    /* background: linear-gradient(to bottom, rgb(244 175 124), white); */
     padding: 20px;
     text-align: center;
     font-family: 'Source Serif Pro', serif;
@@ -69,4 +67,11 @@
 
 *::-webkit-scrollbar {
     width: 0;
+}
+
+@media screen and (max-width:500px) {
+    .Map-view{
+        height: 85vw;
+        width: 90vw;
+    }
 }

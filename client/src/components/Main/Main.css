@@ -1,6 +1,6 @@
 .Main-container {
     background-image: linear-gradient(to bottom, rgb(132 113 101), rgb(244 175 124));
-    /* min-height: 100vh; */
+    min-height: 100vh;
 }
 
 .Main-write-section{
@@ -10,7 +10,6 @@
 .Main-title {
     font-size: 2.5rem;
     word-wrap: break-word;
-    /* width: 50%; */
     padding: 10px;
     color: #eadbc3;
     font-family: 'Ubuntu', sans-serif;
@@ -49,5 +48,12 @@
 
     100% {
         transform: translateX(10px);
+    }
+}
+
+@media screen and (max-width:500px) {
+    .weather-image{
+        width: 90vw;
+        height: fit-content;
     }
 }

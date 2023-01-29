@@ -106,9 +106,9 @@ const Map = () => {
                                                 City: {city.name}
                                             </div>
                                             <div>
-                                                Temp: {(city.main.temp - 273.15).toFixed(2)} <br />
-                                                Max temp: {(city.main.temp_max - 273.15).toFixed(2)}<br />
-                                                Min temp: {(city.main.temp_min - 273.15).toFixed(2)}<br />
+                                                Temp: {(city.main.temp - 273.15).toFixed(2)}°C <br />
+                                                Max temp: {(city.main.temp_max - 273.15).toFixed(2)}°C<br />
+                                                Min temp: {(city.main.temp_min - 273.15).toFixed(2)}°C<br />
                                                 Humdity: {city.main.humidity}
                                             </div>
                                         </Popup>

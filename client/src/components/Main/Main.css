@@ -1,0 +1,53 @@
+.Main-container {
+    background-image: linear-gradient(to bottom, rgb(132 113 101), rgb(244 175 124));
+    /* min-height: 100vh; */
+}
+
+.Main-write-section{
+    width: 450px;
+}
+
+.Main-title {
+    font-size: 2.5rem;
+    word-wrap: break-word;
+    /* width: 50%; */
+    padding: 10px;
+    color: #eadbc3;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Main-description {
+    word-wrap: break-word;
+    font-size: 1.3rem;
+    color: #eadbc3a4;
+}
+
+.weather-image {
+    height: 30rem;
+    transform: rotateY(180deg);
+    animation: moverUp 1s infinite alternate;
+}
+
+.Main-icon{
+    animation: moverSide 1s infinite alternate;
+}
+
+@keyframes moverUp {
+    0% {
+        transform: translateY(0) rotateY(180deg);
+    }
+
+    100% {
+        transform: translateY(-10px) rotateY(180deg);
+    }
+}
+
+@keyframes moverSide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(10px);
+    }
+}

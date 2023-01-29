@@ -1,0 +1,26 @@
+.page-button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.175);
+    text-decoration: none;
+}
+.page-button:hover{
+    cursor: pointer;
+    color: brown;
+    border-color: brown;
+}
+
+.disabled{
+    color: rgba(255, 255, 255, 0.334);
+    background-color: rgba(255, 255, 255, 0.059);
+    border-color: rgba(255, 255, 255, 0.334);
+}
+
+.disabled:hover{
+    color: rgba(255, 255, 255, 0.334);
+    background-color: rgba(255, 255, 255, 0.059);
+    border-color: rgba(255, 255, 255, 0.334);
+    cursor: default;
+}
